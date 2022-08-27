@@ -2,7 +2,7 @@
   "id": "com.reader.cloudronapp",
   "title": "Reader",
   "author": "hectorqin.",
-  "description": "https://github.com/hectorqin/reader",
+  "description": "Reader enables novel reading across devices via browsers.",
   "tagline": "Universal bookshelf for reading",
   "version": "0.0.1",
   "upstreamVersion": "2.6.3",
@@ -21,6 +21,8 @@
     "reading"
   ],
   "minBoxVersion": "7.1.2",
+  "postInstallMessage": "file://POSTINSTALL.md",
+  "icon": "file://logo.png",
   "documentationUrl": "https://github.com/hectorqin/reader",
   "changelog": "file://CHANGELOG.md"
 }

@@ -3,7 +3,7 @@
 - https://www.cloudron.io/
 
 ## Usage
-
+0. Clone this repo 
 1. Install cloudron cli `npm install -g cloudron`
 2. Login to your cloudron instance `cloudron login my.example.com`
 3. Install this app `cloudron install --image tobosdf/reader:latest`
