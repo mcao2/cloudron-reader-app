@@ -1,0 +1,6 @@
+# Set or override configuration environment variables in this file
+export PORT=8080
+export SPRING_PROFILES_ACTIVE=prod
+export READER_APP_SECURE=true
+export READER_APP_SECUREKEY=your_secure_key # change me!
+export READER_APP_INVITECODE=your_invite_code # change me!

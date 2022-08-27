@@ -1,0 +1,26 @@
+{
+  "id": "com.reader.cloudronapp",
+  "title": "Reader",
+  "author": "hectorqin.",
+  "description": "https://github.com/hectorqin/reader",
+  "tagline": "Universal bookshelf for reading",
+  "version": "0.0.1",
+  "upstreamVersion": "2.6.3",
+  "healthCheckPath": "/health",
+  "httpPort": 8080,
+  "addons": {
+    "localstorage": {}
+  },
+  "optionalSso": true,
+  "memoryLimit": 1610612736,
+  "manifestVersion": 2,
+  "website": "https://github.com/hectorqin/reader",
+  "contactEmail": "cloudron@mxcao.me",
+  "tags": [
+    "book",
+    "reading"
+  ],
+  "minBoxVersion": "7.1.2",
+  "documentationUrl": "https://github.com/hectorqin/reader",
+  "changelog": "file://CHANGELOG.md"
+}
