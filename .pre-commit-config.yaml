@@ -1,0 +1,21 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.0.1
+    hooks:
+      - id: check-json
+      - id: check-yaml
+      - id: end-of-file-fixer
+        exclude_types: [json]
+      - id: trailing-whitespace
+  - repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.28.1
+    hooks:
+      - id: markdownlint
+        args: [-f]
+  - repo: local
+    hooks:
+      - id: update-version
+        name: update-version
+        language: script
+        entry: update_version.sh
+        files: "CHANGELOG.md"
