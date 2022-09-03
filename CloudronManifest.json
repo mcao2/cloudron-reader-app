@@ -4,7 +4,7 @@
   "author": "hectorqin.",
   "description": "Reader enables novel reading across devices via browsers.",
   "tagline": "Universal bookshelf for reading",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "upstreamVersion": "2.6.3",
   "healthCheckPath": "/health",
   "httpPort": 8080,
@@ -12,7 +12,6 @@
     "localstorage": {}
   },
   "optionalSso": true,
-  "memoryLimit": 1610612736,
   "manifestVersion": 2,
   "website": "https://github.com/hectorqin/reader",
   "contactEmail": "cloudron@mxcao.me",

@@ -1,3 +1,7 @@
+[0.0.3]
+
+- Rm old memory limit
+
 [0.0.2]
 
 - Add postinstall instructions and logo
